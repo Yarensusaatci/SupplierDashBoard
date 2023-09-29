@@ -59,9 +59,7 @@ app.get("/getProducts", async(req, res) => {
         console.log(error);
     }
 });
-
-  
-//monthly analysis için select year
+//monthly analysis için select year.
 app.get("/getPaymentYears", async (req, res) => {
     try {
       const result = await ordersModel.aggregate([
