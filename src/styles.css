@@ -1,0 +1,18 @@
+/* Linkleri düğme gibi stil vermek için özel sınıf */
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 4px;
+    background-color: #6320D4;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #CF2DE2;
+}

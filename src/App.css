@@ -1,0 +1,121 @@
+            /* Filtre giriş alanını sağa kaydırma */
+            
+            .filter-bar {
+                display: flex;
+                justify-content: flex-end;
+                /* Filtreyi sağa kaydırmak için sağa hizalama */
+                margin-bottom: 20px;
+                /* Gerekirse alt kısımda biraz boşluk bırakabilirsiniz */
+            }
+            
+            .filter-bar div {
+                margin-left: 10px;
+                /* Filtre alanları arasında biraz boşluk bırakma */
+            }
+            /* Filtre giriş alanı rengi */
+            
+            .filter-bar input[type="text"] {
+                padding: 5px;
+                border: 1px solid #ff5722;
+                /* Canlı turuncu renk */
+                border-radius: 4px;
+            }
+            /* Sayfa numaraları için CSS */
+            
+            .pagination {
+                display: flex;
+                list-style-type: none;
+                padding: 0;
+                justify-content: center;
+                /* Sayfa numaralarını merkeze hizalama */
+            }
+            
+            .pagination li {
+                margin-right: 10px;
+            }
+            /* Tablo renklendirme */
+            
+            .table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+            }
+            
+            .table th,
+            .table td {
+                padding: 12px;
+                text-align: left;
+                border-bottom: 1px solid #3f51b5;
+                /* Canlı mavi renk */
+            }
+            
+            .table th {
+                background-color: #f2f2f2;
+                font-weight: bold;
+            }
+            
+            .table tbody tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            
+            .table tbody tr:hover {
+                background-color: #FDD27C;
+            }
+            /* Ana başlık */
+            
+            h1 {
+                text-align: center;
+                /* Başlığı ortala */
+                color: #3498db;
+                /* Renk örneği: Mavi */
+                background-color: #f2f2f2;
+                /* Arka plan rengi */
+                padding: 8px;
+                /* İçerikle arka plan arasındaki boşluk */
+                border-radius: 14px;
+                /* Köşeleri yuvarla */
+                margin-bottom: 8px;
+                /* Başlık ile diğer içerik arasında boşluk bırak */
+            }
+            /* CSS stil güncellemeleri */
+            /* ... diğer stiller */
+            /* Dropdown'ları yan yana hizalamak için */
+            
+            .logout-button {
+                float: right;
+                background-color: #3498db;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                padding: 10px 20px;
+                margin: 10px;
+                cursor: pointer;
+            }
+            
+            .logout-button:hover {
+                background-color: #2980b9;
+            }
+            
+            .dropdown-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 18px;
+                /* İstediğiniz boşluğu ayarlayabilirsiniz */
+            }
+            /* "Select a Vendor" dropdown'ı için stil */
+            
+            #vendorSelect {
+                width: 65%;
+                /* Dropdown'ın yüzde 45'ini kaplasın */
+                padding: 10px;
+                font-size: 16px;
+            }
+            /* "Items Per Page" dropdown'ı için stil */
+            
+            #itemsPerPageSelect {
+                width: 15%;
+                /* Dropdown'ın yüzde 45'ini kaplasın */
+                padding: 10px;
+                font-size: 16px;
+            }
